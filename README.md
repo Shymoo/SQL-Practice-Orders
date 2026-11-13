@@ -1,6 +1,5 @@
-
-
-# SQL Practice: Orders Analysis
+SQL Basic Assignment
+SQL Practice
 
 A beginner-to-intermediate SQL project. It builds a database called `SQL_Practice`, creates an `Orders` table with 20 sample rows, and answers business questions using filtering, sorting, pattern matching and calculated expressions.
 
@@ -11,8 +10,6 @@ MySQL (tested in MySQL Workbench).
 ## Project Structure
 
 ```
-SQL-Practice-Orders/
-├── README.md
 ├── 01_create_database_and_table.sql
 ├── 02_insert_data.sql
 ├── 03_queries.sql
@@ -25,16 +22,6 @@ SQL-Practice-Orders/
 2. Run `02_insert_data.sql` to load the 20 rows.
 3. Run `03_queries.sql` to execute the analysis queries.
 
-## SQL Concepts Covered
-
-- `CREATE DATABASE`, `CREATE TABLE`, `INSERT`
-- `SELECT`, `WHERE`, `ORDER BY` (ASC and DESC)
-- `AND`, `OR`, `IN`, `BETWEEN`, `LIKE`
-- `DISTINCT`
-- `IS NULL` and `IS NOT NULL`
-- Calculated expressions such as `quantity * unit_price`
-
----
 
 ## Part 1: Database Setup
 
