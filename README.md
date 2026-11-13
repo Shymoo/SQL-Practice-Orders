@@ -1,21 +1,4 @@
-<img width="1440" height="900" alt="Screenshot_2026-11-13_at_20 00 51" src="https://github.com/user-attachments/assets/4d012bd6-02a2-47c9-8ed4-7776a3239a8d" />
-<img width="1440" height="900" alt="Screenshot_2026-11-13_at_20 00 16" src="https://github.com/user-attachments/assets/5fcb6a52-27a2-47f0-87c0-93146b0275a9" />
-<img width="1440" height="900" alt="Screenshot_2026-11-13_at_19 59 57" src="https://github.com/user-attachments/assets/75b49197-1c3b-4518-9c43-84304d73be70" />
-<img width="1440" height="900" alt="Screenshot_2026-11-13_at_19 59 39" src="https://github.com/user-attachments/assets/bde122b1-deca-4643-a2da-a66a9c6eb8a4" />
-<img width="1440" height="900" alt="Screenshot_2026-11-13_at_19 59 02" src="https://github.com/user-attachments/assets/374ecde3-e5a2-4a8e-bfdb-7c20512770d4" />
-<img width="1440" height="900" alt="Screenshot_2026-11-13_at_19 58 19" src="https://github.com/user-attachments/assets/ce5bf32e-71b4-4bac-ba6f-b60b0db2b5e0" />
-<img width="1440" height="900" alt="Screenshot_2026-11-13_at_19 58 03" src="https://github.com/user-attachments/assets/3b516690-571b-4285-b253-58f3417d64df" />
-<img width="1440" height="900" alt="Screenshot_2026-11-13_at_19 57 46" src="https://github.com/user-attachments/assets/22e1760b-72e4-454f-b10a-d2a38f75c4c0" />
-<img width="1440" height="900" alt="Screenshot_2026-11-13_at_19 57 25" src="https://github.com/user-attachments/assets/57fa4740-995a-4b49-ab1d-35d3f6dae194" />
-<img width="1440" height="900" alt="Screenshot_2026-11-13_at_19 57 05" src="https://github.com/user-attachments/assets/b57b84ac-b7f1-44f3-9c25-10b8df634145" />
-<img width="1440" height="900" alt="Screenshot_2026-11-13_at_19 56 33" src="https://github.com/user-attachments/assets/3f40c6de-bdfb-49b4-a879-a9207d6ea0d2" />
-<img width="1440" height="900" alt="Screenshot_2026-11-13_at_19 56 12" src="https://github.com/user-attachments/assets/11e6c8d8-f644-4439-b18f-e0bf10195816" />
-<img width="1440" height="900" alt="Screenshot_2026-11-13_at_19 55 27" src="https://github.com/user-attachments/assets/8b23d098-da42-47fd-b8d4-b58627c9dd0b" />
-<img width="1440" height="900" alt="Q5" src="https://github.com/user-attachments/assets/2909b92e-5fbf-451d-99ed-ab486c9f79d2" />
-<img width="1440" height="900" alt="Q4" src="https://github.com/user-attachments/assets/2e592fcc-59e1-43b0-b0d9-721d8000fbc7" />
-<img width="1440" height="900" alt="Q2__Q3" src="https://github.com/user-attachments/assets/ba18bcf6-df55-41a8-9b65-ea3b08d5ff82" />
-<img width="999" height="243" alt="Q1" src="https://github.com/user-attachments/assets/c30d05a1-c6dc-4367-bb37-68ca617cf2cd" />
-# README
+
 
 # SQL Practice: Orders Analysis
 
@@ -63,9 +46,11 @@ CREATE DATABASE `SQL_Practice`;
 USE `SQL_Practice`;
 ```
 
+
+
 Create database
 
-![Create database](README/Q1.png)
+<img width="999" height="243" alt="Q1" src="https://github.com/user-attachments/assets/a9889f56-38d5-488b-96d8-fe85500cd90d" />
 
 Create database
 
@@ -73,7 +58,7 @@ Create database
 
 Create table
 
-![Create table](README/Q2__Q3.png)
+<img width="1440" height="900" alt="Q2__Q3" src="https://github.com/user-attachments/assets/db19d806-b760-42ae-8d41-ad18371fabc6" />
 
 Create table
 
@@ -81,7 +66,8 @@ Create table
 
 Insert data
 
-![Insert data](README/Q4.png)
+<img width="1440" height="900" alt="Q4" src="https://github.com/user-attachments/assets/e36999c8-5bdc-45d9-98e4-e24f438d587d" />
+
 
 ---
 
@@ -96,7 +82,8 @@ FROM SQL_Practice.Orders;
 
 Select all
 
-![Select all](README/Q5.png)
+<img width="1440" height="900" alt="Q5" src="https://github.com/user-attachments/assets/a029692a-df69-4b55-a29c-59cfa7b11d36" />
+
 
 ### 2. Display only OrderID, CustomerID and Sales
 
@@ -107,7 +94,8 @@ FROM SQL_Practice.Orders;
 
 Select columns
 
-![Select columns](README/Screenshot_2026-11-13_at_19.55.27.png)
+<img width="1440" height="900" alt="Screenshot_2026-11-13_at_19 55 27" src="https://github.com/user-attachments/assets/793c1a4f-0376-4ef5-898d-cd0895baf157" />
+
 
 ### 3. Show all orders where Sales > 500
 
@@ -119,7 +107,8 @@ WHERE sales > 500;
 
 Sales over 500
 
-![Sales over 500](README/Screenshot_2026-11-13_at_19.56.12.png)
+<img width="1440" height="900" alt="Screenshot_2026-11-13_at_19 56 12" src="https://github.com/user-attachments/assets/6f9f3ce3-835d-49db-b3ef-867209b31b3d" />
+
 
 ### 4. Retrieve orders where Quantity = 1
 
@@ -131,7 +120,8 @@ WHERE quantity = 1;
 
 Quantity equals 1
 
-![Quantity equals 1](README/Screenshot_2026-11-13_at_19.56.33.png)
+<img width="1440" height="900" alt="Screenshot_2026-11-13_at_19 56 33" src="https://github.com/user-attachments/assets/399b28ae-6b14-44eb-af69-341432e51f52" />
+
 
 ### 5. Display all orders where Country = ‘USA’
 
@@ -143,7 +133,8 @@ WHERE country = 'USA';
 
 Country USA
 
-![Country USA](README/Screenshot_2026-11-13_at_19.57.05.png)
+<img width="1440" height="900" alt="Screenshot_2026-11-13_at_19 57 05" src="https://github.com/user-attachments/assets/ab7c2df1-8dcd-41b1-809f-5bdabc25da09" />
+
 
 ### 6. List all distinct countries
 
