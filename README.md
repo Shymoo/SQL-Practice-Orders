@@ -145,7 +145,8 @@ FROM SQL_Practice.Orders;
 
 Distinct countries
 
-![Distinct countries](README/Screenshot_2026-11-13_at_19.57.25.png)
+<img width="1440" height="900" alt="Screenshot_2026-11-13_at_19 57 05" src="https://github.com/user-attachments/assets/ced251f6-dd0d-4c97-89b6-d48f4f8bba54" />
+
 
 ### 7. Show orders where Profit < 0
 
