@@ -133,3 +133,8 @@ WHERE order_date BETWEEN '2023-01-01' AND '2023-12-31'
 ;
 
 -- 5.Retrieve orders where Country IN ('USA','UK','Germany'), ordered bySales DESC.
+SELECT DISTINCT customer_id
+FROM SQL_Practice.Orders
+WHERE Country = 'USA' AND Profit < 0
+ORDER BY customer_id ASC
+;
