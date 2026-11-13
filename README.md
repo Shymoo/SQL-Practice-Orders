@@ -289,15 +289,4 @@ ORDER BY customer_id;
 
 ---
 
-## Key Learnings
-
-- **NULL needs `IS NULL`.** `= NULL` runs without an error but returns 0 rows, because NULL means unknown and nothing equals unknown.
-- **Wildcard position matters.** `LIKE '%Chair%'` finds the word anywhere. `'%Chair'` finds it only at the end and misses “desk chair pro”.
-- **`BETWEEN` is inclusive** of both end values, and the smaller value must come first.
-- **Case sensitivity differs by database.** Data is stored in lowercase (`'usa'`). MySQL and SQL Server match `'USA'` by default, but PostgreSQL does not. Use `LOWER(country) = 'usa'` to be portable.
-- **Choose column sizes from the real data.** `VARCHAR(10)` is too short for `'conference chair'`, so product names use `VARCHAR(100)`.
-- **Use `DECIMAL` for money**, not `FLOAT`, to avoid rounding errors.
-- **Don’t duplicate stored data.** `sales` already equals `quantity * unit_price`, so a second column for it would be redundant.
-- **Ties in `ORDER BY` are not guaranteed to be in a fixed order.** Add a second sort column such as `order_id` for consistent output.
-
 Shaima Aser [LinkedIn](https://www.linkedin.com/in/shaimaabd/) | [GitHub](https://github.com/your-username)
