@@ -1,4 +1,4 @@
-SQL Basic Assignment
+#SQL Basic Assignment
 SQL Practice
 
 A beginner-to-intermediate SQL project. It builds a database called `SQL_Practice`, creates an `Orders` table with 20 sample rows, and answers business questions using filtering, sorting, pattern matching and calculated expressions.
