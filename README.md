@@ -145,7 +145,8 @@ FROM SQL_Practice.Orders;
 
 Distinct countries
 
-<img width="1440" height="900" alt="Screenshot_2026-11-13_at_19 57 05" src="https://github.com/user-attachments/assets/ced251f6-dd0d-4c97-89b6-d48f4f8bba54" />
+<img width="1440" height="900" alt="Screenshot 2026-11-13 at 21 05 01" src="https://github.com/user-attachments/assets/d46677c8-9d88-43bc-b608-e61ae4d21e24" />
+
 
 
 ### 7. Show orders where Profit < 0
@@ -158,7 +159,9 @@ WHERE profit < 0;
 
 Negative profit
 
-![Negative profit](README/Screenshot_2026-11-13_at_19.57.46.png)
+<img width="1440" height="900" alt="Screenshot 2026-11-13 at 21 07 09" src="https://github.com/user-attachments/assets/42a6ac32-db5a-47b3-afb5-0e0f51c405eb" />
+
+
 
 ### 8. Retrieve orders where Discount >= 0.2
 
@@ -170,7 +173,8 @@ WHERE discount >= 0.2;
 
 Discount 0.2 or more
 
-![Discount 0.2 or more](README/Screenshot_2026-11-13_at_19.58.03.png)
+<img width="1440" height="900" alt="Screenshot 2026-11-13 at 21 07 57" src="https://github.com/user-attachments/assets/516cbae7-2fb8-44ce-9bbf-60de230eec9a" />
+
 
 ### 9. Display orders where ShipDate IS NULL
 
@@ -182,7 +186,8 @@ WHERE ship_date IS NULL;
 
 Unshipped orders
 
-![Unshipped orders](README/Screenshot_2026-11-13_at_19.58.19.png)
+<img width="1440" height="900" alt="Screenshot 2026-11-13 at 21 10 00" src="https://github.com/user-attachments/assets/be16ddec-3a72-48f2-b3e4-8831dda804cf" />
+
 
 ---
 
@@ -198,7 +203,8 @@ WHERE sales = quantity * unit_price;
 
 Sales equals quantity x price
 
-![Sales equals quantity x price](README/Screenshot_2026-11-13_at_19.59.02.png)
+<img width="1440" height="900" alt="Screenshot 2026-11-13 at 21 11 06" src="https://github.com/user-attachments/assets/f53d1dfd-dd1f-496d-8ac0-166fb9ab4ab4" />
+
 
 ### 2. Category is Furniture OR Technology
 
@@ -210,7 +216,8 @@ WHERE category = 'Furniture' OR category = 'Technology';
 
 Furniture or technology
 
-![Furniture or technology](README/Screenshot_2026-11-13_at_19.59.39.png)
+<img width="1440" height="900" alt="Screenshot 2026-11-13 at 21 13 03" src="https://github.com/user-attachments/assets/fd160176-6eba-4b4c-87be-d3f88957e282" />
+
 
 ### 3. CustomerID starts with ‘C’ (LIKE)
 
@@ -222,7 +229,8 @@ WHERE customer_id LIKE 'C%';
 
 Customer starts with C
 
-![Customer starts with C](README/Screenshot_2026-11-13_at_19.59.57.png)
+<img width="1440" height="900" alt="Screenshot 2026-11-13 at 21 13 46" src="https://github.com/user-attachments/assets/becf40fa-9872-4171-9601-64eb71f83433" />
+
 
 ### 4. Orders placed in 2023 (BETWEEN)
 
@@ -231,8 +239,8 @@ SELECT *
 FROM SQL_Practice.Orders
 WHERE order_date BETWEEN '2023-01-01' AND '2023-12-31';
 ```
+<img width="1440" height="900" alt="Screenshot 2026-11-13 at 21 14 24" src="https://github.com/user-attachments/assets/6e1c08d1-c9ab-45f9-9cb7-d55bce16bc06" />
 
-![Orders in 2023](README/Screenshot_2026-11-13_at_20.00.16.png)
 
 ### 5. Sales > 500 AND Profit > 0, ordered by Profit
 
@@ -245,7 +253,8 @@ ORDER BY profit;
 
 Sales and profit ordered
 
-![Sales and profit ordered](README/Screenshot_2026-11-13_at_20.00.51.png)
+<img width="1440" height="900" alt="Screenshot 2026-11-13 at 21 15 32" src="https://github.com/user-attachments/assets/1fa7a8dc-c632-4c82-94ea-f8ad370f1085" />
+
 
 ### 6. Country IN (USA, UK, Germany), ordered by Sales DESC
 
